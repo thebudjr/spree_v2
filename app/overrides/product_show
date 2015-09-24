@@ -1,6 +1,6 @@
 Deface::Override.new(:virtual_path => "spree/products/show", 
                      :name => "product_show", 
-                     :replace => "[data-hook=product_show]",
+                     :replace => "[data-hook='product_show']",
                      :text => '<div data-hook="product_show" itemscope itemtype="https://schema.org/Product">
     <div class="col-md-8" data-hook="product_left_part">
       <div data-hook="product_left_part_wrap">
