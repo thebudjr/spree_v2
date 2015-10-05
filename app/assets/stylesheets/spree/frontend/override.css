@@ -1,6 +1,7 @@
 .product-body {
-	max-width: 100%;
-	width: auto;
-  height: auto;
   overflow: none;
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
