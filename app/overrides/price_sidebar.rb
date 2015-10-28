@@ -1,3 +1,3 @@
-Deface::Override.new(:virtual_path => "spree/shared/_taxonomies", 
+Deface::Override.new(:virtual_path => "spree/shared/_filters", 
                      :name => "price_sidebar", 
-                     :remove => ".sidebar-item")
+                     :remove => ".navigation")
