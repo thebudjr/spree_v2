@@ -1,3 +1,3 @@
-Deface::Override.new(:virtual_path => "spree/products/index", 
+Deface::Override.new(:virtual_path => "spree/shared/_products", 
                      :name => "remove_index",
-                     :remove => '[data-hook="homepage_products"]')
+                     :remove => "#products")
