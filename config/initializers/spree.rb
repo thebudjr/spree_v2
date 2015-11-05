@@ -12,7 +12,6 @@
 Spree.config do |config|
   # Example:
   # Uncomment to stop tracking inventory levels in the application
-  config.number_of_articles = 4
   config.track_inventory_levels = false
   attachment_config = {
 
