@@ -14,5 +14,7 @@
  *= require_self
  */
 .landing { 
-  background-image: url('background.png');
+  background-image: image-url('background.png');
+  background-repeat: repeat;
+  
 }
